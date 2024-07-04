@@ -1,0 +1,651 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+<title>TheFineAce</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<style>
+
+
+
+.textblack {
+color: black;
+font-family: sans-serif;
+
+}
+
+.fs:hover{
+font-size: 18px;
+color:rgb(240, 19, 19);
+}
+.bgcolor1 {
+background-color: rgb(255, 255, 255);
+}
+
+.sm{
+color:rgb(90, 186, 227);
+
+}
+
+.fa {
+padding: 10px;
+padding-right: 20px;
+padding-bottom: 25px;
+font-size: 10px;
+width: 10px;
+height: 20px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+/* margin-left: 40px; */
+}
+
+.fa:hover .image1:hover{
+opacity: 0.9;
+color:rgb(253, 214, 197);
+}
+
+p{
+  color: rgb(12, 12, 12);
+}
+
+
+.subbtn{
+background-color:rgb(245, 4, 4);
+color:rgb(249, 246, 246);
+}
+fs:hover{
+color: rgb(255, 255, 255);
+}
+
+.fs1{
+font-size: 30px;
+}
+.fs2{
+  font-size: 15px;
+}
+.fs3{
+  font-size: 12px;
+}
+.responsive {
+max-width: 100%;
+height: auto;
+}
+.data1{
+position: relative;
+width: 50%;
+
+}
+
+.image {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.overlay {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: #74919f5a;
+overflow: hidden;
+width: 180%;
+height: 100%;
+-webkit-transform: scale(0);
+-ms-transform: scale(0);
+transform: scale(0);
+-webkit-transition: .3s ease;
+transition: .3s ease;
+}
+
+.data1:hover .overlay {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1);
+}
+
+
+.text {
+color: rgb(255, 255, 255);
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+.c:hover{
+background-color: rgba(34, 104, 104, 0.255);
+}
+
+.c1:hover{
+background-color:rgb(115, 176, 115);
+}
+
+.card{
+box-shadow: 2px 8px 8px 0 rgb(20, 19, 19);
+transition: 0.5s;
+}
+
+.card-img-top1{
+  position: relative;
+width: 100%;
+/* height:200px; */
+
+}
+.image1 {
+display: block;
+width: 100%;
+height: 200px;
+}
+
+overlay {
+  position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: #a3bdc75a;
+overflow: hidden;
+/* width: 200px; */
+height: 100%;
+-webkit-transform: scale(0);
+-ms-transform: scale(0);
+transform: scale(0);
+-webkit-transition: .3s ease;
+transition: .3s ease;
+}
+
+.text {
+color: rgb(249, 249, 249);
+font-size: 20px;
+position: absolute;
+ top: 50%;
+left: 50%; 
+-webkit-transform: translate(-30%, -30%);
+-ms-transform: translate(-30%, -30%);
+transform: translate(-30%, -30%); 
+text-align: left;
+}
+
+.card-img-top1:hover .overlay {
+  width: 100%;
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1);
+}
+
+
+.card:hover {
+box-shadow: 2px 8px 16px 0 rgb(51, 51, 86);
+} 
+
+
+</style>
+</head>
+
+<body>
+
+
+<nav class="navbar   navbar-expand-sm navbar-fixed-top bgcolor1 navbar-dark navht textclr ">
+<div class="container-fluid">
+<a class="navbar-brand" href="#">
+  <b class="logo img-rounded ">
+    <img src="images/TFA small.png" alt="TFA" style="width:100%; height: 50px;" />
+  </b>
+</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse fs2" id="collapsibleNavbar">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link textblack fs2" href="home.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link textblack fs2" href="about.html">About</a>
+    </li>
+    <li class="nav-item dropdown fs2">
+      <a class="nav-link dropdown-toggle textblack" href="#" role="button" data-bs-toggle="dropdown">Service</a>
+      <ul class="dropdown-menu ">
+        <li><a class="dropdown-item fs2" href="service.html">business</a></li>
+        <li><a class="dropdown-item fs2" href="service1.html">contract</a></li>
+        <li><a class="dropdown-item fs2" href="service3.html">consultation</a></li>
+      </ul>
+    
+    </li>
+    <li class="nav-item">
+      <a class="nav-link textblack fs2" href="bookingform.html">contact us</a>
+    </li>
+    </li>
+   
+  </ul>
+</div>
+</div>
+</nav>
+
+
+
+<!-- Carousel silder part--------------------------------------------------------------------------------------------------------->
+
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+<!-- Indicators/dots -->
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+</div>
+
+<!-- The slideshow/carousel -->
+<div class="carousel-inner">
+<div class="carousel-item active">
+  <img src="images/pexels-scottwebb-27406.jpg" alt="TheFineAce.com" class="d-block" height="500px"
+    width="100%">
+  <div class="carousel-caption">
+    <h1 style="font-size: 80px;">TheFineAce</h1>
+    <h3 style="font-size: 20px; margin-bottom: 200px;">businesses meet</h3>
+
+  </div>
+</div>
+<div class="carousel-item">
+  <img src="images/pexels-matej-117839-1074882.jpg" alt="Chicago" class="d-block" height="500px" width="100%">
+  <div class="carousel-caption">
+    <h3 style="font-size: 80px; margin-bottom: 200px;"> TFA</h3>
+  </div>
+</div>
+<div class="carousel-item">
+  <img src="images/TFA small.png" alt="New York" class="d-block" height="500px" width="100%">
+  <div class="carousel-caption">
+    <h3 style="font-size: 40px; margin-bottom: 200px;">Let's Make A Fun In Lavasa</h3>
+  </div>
+</div>
+</div>
+
+<!-- Left and right controls/icons -->
+<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</button>
+</div>
+
+
+<!-- Main Code----------------------------------------------------------------------------------------------------->
+
+<div class="container mb-5">
+<div class="row " >
+  <div class="container mb-5 " style=" background-color: #6d674b(255, 111, 1, 0.908) " >
+    <div class="row " >
+<center class="pt-5">
+<center><h5 class=" animated fs1">About Us</h5></center>
+</center>
+</div>
+<div class="row">
+<div class="col-md-6 col-sm-3 mt-4">
+  <div class="data1">
+    <img src="images/TFA small.png" style="width:180%; height:230px;" alt="... " class="image ">
+    <div class="overlay">
+      <div class="text">Welcome To TheFineAce</div>
+    </div>
+  </div>
+ 
+</div>
+<div class="col-md-6 col-sm-3 mt-4">
+  <div class="data2 fs2">
+    <center><p>Welcome to TheFineAce We are excited to have you stay with us and hope you have a comfortable and enjoyable
+      visit.
+      We offer comfortable and clean accommodations that are perfect for business or leisure travel.
+      Our friendly staff members are available night or day to assist you<br> We offer complimentary breakfast in
+      the morning, which includes a variety of items to help you start your day off right. We also offer free
+      Wi-Fi access throughout the hotel.
+      <br> Thank you for choosing Fortune as your home away from home. We look forward to providing you with a
+      comfortable and memorable stay.
+      ‍
+    </p></center>
+  </div>
+
+</div>
+</div>
+</div>
+
+  
+
+<!-- <----------------------------------------------------------------------------------------------------------------------- -->
+<div class="container mb-5 " style="background-color:#ff8800(232, 225, 246, 0.908);" >
+<div class="row " >
+<center>
+<h5 class="fs1 mt-3 ">Owner</h5>
+</center>
+</div>
+<div class="row mt-4  " >
+<div class="col-md-6 col-sm-3 mt-2">
+<div class="data3">
+  <center>
+  <img src="images/WhatsApp Image 2024-06-21 at 11.06.48 AM (2).jpeg" style="width:50%; height:300px;" alt="... " class="image1 rounded-circle">
+
+   <p class="ml-3 fs2"><b>riya bhosale</b></p><p class="fs3">Bachelor of Hotel Management (BHM)</p>
+  </center>
+ </div>
+ </div>
+<div class="col-md-6 col-sm-3 mt-20">
+<div class="data4 fs2">
+  <p> A hotels mission may be to provide the finest facilities and services in the market while providing a good place to work for its employees and a reasonable return for the investments by its owners.
+    ‍
+  </p>
+</div>
+
+</div>
+</div>
+</div>
+<!-- --------------------------services---------------------------------------------------------------------------------------------------------- -->
+<div class="container mb-5 " style=" background-color: #0098df(246, 234, 225, 0.908) "  >
+<div class="row " >
+<center>
+<h5 class="fs1 mt-3">Our Services & Facilities</h5>
+</center>
+</div>
+<div class="row mt-4 mb-3 " >
+<div class="col-md-3 col-sm-3 mt-2">
+<div class="card"style="height:350px">
+ <div  class="card-img-top1">
+   <a href="service.html"><img  src="../ImgHotel/img3.jpg" alt="Card image cap" class="image1" height="200px" width="50%">
+    <div class="overlay">
+      <div class="text ">Rooms Services</div>
+    </div></a>
+  
+</div>
+  <div class="card-body ">
+    <h5 class="card-title fs2">Rooms Services </h5>
+    <p class="card-text pb-4 fs3">In Fortune the rooms are categorised and priced according to the type of bed. </p>
+    
+  </div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-3 mt-2">
+<div class="card"style="height:350px">
+  <div class="card-img-top1">
+    <a href="service1.html">
+  <img  src="../ImgHotel/food.jpg" alt="Card image cap " class="image1" height="200px" width="50%">
+  <div class="overlay">
+    <div class="text">Food in Restaurant</div>
+  </div>
+</a>
+</div>
+  <div class="card-body">
+    <h5 class="card-title fs2">Food in Restaurant</h5>
+    <p class="card-text fs3">In Our Restaurant is We prepares and serves food and drinks to customers. </p>
+    
+  </div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-3 mt-2">
+<div class="card" style="height:350px">
+  <div class="card-img-top1">
+  <img src="../ImgHotel/swim.jpg" alt="Card image cap" class="image1" height="200px" width="100%">
+  <div class="overlay">
+    <div class="text">Swimming Pools</div>
+  </div>
+</div>
+  <div class="card-body">
+    <h5 class="card-title fs2">Swimming Pools</h5>
+    <p class="card-text fs3">Have a pool  for guests to become a source of fond memories that turn into happy</p>
+    
+  </div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-3 mt-2">
+<div class="card"style="height:350px">
+  <div class="card-img-top1">
+  <img src="../ImgHotel/laundry.jpg" alt="Card image cap" class="image1" height="200px" width="50%">
+  <div class="overlay">
+    <div class="text">Laundry</div>
+  </div>
+</div>
+  <div class="card-body">
+    <h5 class="card-title fs2">Laundry</h5>
+    <p class="card-text fs3">We offer laundry, dry cleaning, wash and fold, wash and iron, ironing service at doorstep.</p>
+    
+  </div>
+</div>
+</div>
+</div>
+<!-- -------------------------------2nd part services -->
+
+<div class="row mt-4 pb-5 " >
+<div class="col-md-3 col-sm-3 mt-2">
+<div class="card"style="height:350px">
+  <div class="card-img-top1">
+  <img class="card-img-top" src="../ImgHotel/hall1.jpg" alt="Card image cap" class="image1" height="200px" width="50%">
+  <div class="overlay">
+    <div class="text">Banquet Hall</div>
+  </div>
+</div>
+  <div class="card-body">
+    <h5 class="card-title fs2">Banquet Hall</h5>
+    <p class="card-text fs3">
+      A banquet hall, function hall is a special purpose room used for hosting  social & business events. </p>
+    
+  </div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-3 mt-2 ">
+<div class="card"style="height:350px">
+  <div class="card-img-top1">
+  <img class="card-img-top" src="../ImgHotel/gym.jpg" alt="Card image cap" class="image1" height="200px" width="50%">
+  <div class="overlay">
+    <div class="text">Gym</div>
+  </div>
+</div>
+  <div class="card-body">
+    <h5 class="card-title fs2">Gym</h5>
+    <p class="card-text fs3"> Gym is a club or large room, usually containing special equipment available in gym Facilities </p>
+    
+  </div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-3 mt-2 ">
+<div class="card" style="height:350px">
+  <div class="card-img-top1">
+  <img class="card-img-top" src="../ImgHotel/restaurant.jpg" alt="Card image cap" class="image1" height="200px" width="50%">
+  <div class="overlay">
+    <div class="text">Cafe</div>
+  </div>
+</div>
+  <div class="card-body">
+    <h5 class="card-title fs2">Cafe</h5>
+    <p class="card-text fs3">We serve small eating and drinking establishment, historically a coffeehouse.</p>
+    
+  </div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-3 mt-2 ">
+<div class="card " style="height:350px">
+  <div class="card-img-top1 " >
+  <img class="card-img-top" src="../ImgHotel/guid.jpg" alt="Card-image-cap" class="image" height="200px" width="50%">
+  <div class="overlay">
+    <div class="text">Guided Tour Service</div>
+  </div>
+</div>
+  <div class="card-body">
+    <h5 class="card-title fs2">Guided Tour Service</h5>
+    <p class="card-text fs3">Fortune provide tour guide for tourist such as going different places in Lavasa.</p>
+    
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- comment------------------------------------------------------------------------------------------------ -->
+<div class="container mb-5">
+<div class="row " >
+<center class="">
+<h5 class="fs1 animated">People Says</h5>
+</center>
+</div>
+<div class="row">
+<div class="col-md-6 col-sm-3 mt-1">
+<div class="card c "style="height:200px">
+
+  <div class="card-body">
+   <p class="card-text mt-0 p-1 fs2"> "I had a wonderful experience at the Fortune. Every staff member I encountered, from the valet to the check- in to the cleaning staff were delightful and eager to help! Thank you! Will recommend to my colleagues!"
+    </p>
+  </div>
+  <div class="row px-3">
+  <img src="images/TFA small.png" style="height: 45px; width: 15%;"  class=" col-md-2 rounded-circle mb-2"  >
+  
+  <p class="col-md-3 mt-0 fs3">John Deo</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-sm-3 mt-1">
+<div class="card c1" style="height:200px">
+  <div class="card-body c1 ">
+   <p class="card-text mt-0 p-1 c1 fs2"> "I had a Nice experience at the Fortune.and here Fill Touch With nature.The room was wonderful and Staff is Very helful
+    "
+    </p>
+  </div>
+  <div class="row px-3">
+  <img src="images/me link.jpeg" style="height: 45px; width: 15%;"  class="col-md-2 rounded-circle mb-2 ">
+    <p class="col-md-3 mt-0 fs3"><b>Riya</p></b>
+  </div>
+</div>
+</div>
+<div class="col-md-6 col-sm-3 mt-1 py-3">
+<div class="card c1"style="height:200px">
+  <div class="card-body">
+   <p class="card-text mt-0 p-1 fs2"> "I have stayed at Fortune of hotel. This was on the top of the list of best stays/experiences ever. Staff was very hospitable and there for every need of mine. Thank you so much."
+    </p>
+  </div>
+  <div class="row px-3">
+  <img src="images/WhatsApp Image 2024-06-21 at 11.06.48 AM (2).jpeg" style="height: 45px; width: 15%;"  class=" col-md-2 rounded-circle mb-2">
+  <p class="col-md-3 mt-0 fs3">Sophia sin</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-sm-3 mt-1 py-3">
+<div class="card c" style="height:200px">
+  <div class="card-body fs3 ">
+  <p class="card-text mt-0 p-1 fs2">  "Overall, I had a great experience with Fortune; staff was incredibly helpful, and the amenities were great. The room was wonderful, clean, and perfect to celebrate a birthday weekend."
+    </p>
+    </div>
+    <div class="row px-3 ">
+    <img src="images/WhatsApp Image 2024-06-21 at 11.06.48 AM (2).jpeg" style="height: 45px; width: 15%;"  class=" col-md-2 rounded-circle mb-2">
+    <p class="col-md-3 mt-0 fs3">james Broun</p>
+  </div> 
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- Footer ----------------------------- ------------------------------------------------------------------------>
+
+
+<div class="Section bgcolor1 ">
+  <div class="container ">
+  <footer class="py-4 text-white">
+    <div class="row">
+      <center>
+        <b class="logo img-rounded ">
+          <img src="images/TFA small.png" alt="lavasa" style="width:50px; height: 40px;" />
+        </b>
+      </center>
+    </div>
+    <br>
+    <div class="row ">
+      <div class="col-6 col-md-2 mb-3 ">
+        <p class="fs2 fs textblack"><u><b>Usefull-Links</b></u></p>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link textblack fs2 " href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link textblack fs2 " href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown fs2">
+            <a class="nav-link dropdown-toggle textblack" href="#" role="button" data-bs-toggle="dropdown">Service</a>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item" href="service.html">Room Service</a></li>
+              <li><a class="dropdown-item" href="service1.html">Restaurant</a></li>
+              <li><a class="dropdown-item" href="service3.html">Banquet Hall</a></li>
+            </ul>
+          
+          </li>
+          <li class="nav-item fs2">
+            <a class="nav-link textblack " href="bookingform.html">Booking</a>
+          </li>
+         
+        </ul>
+      </div>
+      <div class="col-6 col-md-2 mb-3 fs ">
+        <p class="fs fs2 textblack "><u><b>Contact</b></u></p>
+        <p class="text-black fs2" >A/p Fortune,<br> Near town hall open parking space,<br> Tal.Mulshi Poud Road,<br> Lavasa, Maharashtra
+          412112,</p>
+      </div>
+  
+      <div class="col-6 col-md-2 mb-3 ">
+  
+        <p class="fs  fs2 textblack"><u><b>Social Media</b></u></p>
+        <a href="https://www.google.com" class="fa fa-facebook bg-dark  pb-4 sm "></a>
+        <a href="https://www.google.com" class="fa fa-instagram bg-dark pb-4  sm" ></a>
+        <a href="https://www.google.com" class="fa fa-twitter bg-dark pb-4 sm"></a>
+      </div>
+  
+  
+  
+      <div class="col-md-5 offset-md-1 mb-3 textblack">
+        <form>
+          <p class="fs fs2 "><u><b>Newsletter</b></u></p>
+          <p class="fs3">Subscribe newsletter to get updates</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary subbtn" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  
+    <div class="d-flex flex-column flex-sm-row justify-content-between my-2 textblack  border-top py-4 fs fs1">
+      <p class="fs2">&copy; 2023 thefineace,All rights reserved.</p>
+  
+    </div>
+  </footer>
+  </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+  crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </body>
+  
+  </html>
+</body>
+
+</html>
